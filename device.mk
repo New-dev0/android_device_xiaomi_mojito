@@ -384,6 +384,7 @@ PRODUCT_PACKAGES += \
     CarrierConfigSunny \
     DisplayFeaturesSunny \
     FrameworksSunny \
+    NotchBarKiller \
     SettingsProviderSunny \
     SettingsSunny \
     SystemUISunny \
