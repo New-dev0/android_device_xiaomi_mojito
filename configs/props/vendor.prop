@@ -190,6 +190,9 @@ debug.media.codec2=2
 debug.stagefright.ccodec=4
 debug.stagefright.omx_default_rank=512
 
+# Netflix custom property
+ro.netflix.bsp_rev=Q6150-17263-1
+
 # Perf
 ro.vendor.perf-hal.ver=2.2
 ro.vendor.extension_library=libqti-perfd-client.so
