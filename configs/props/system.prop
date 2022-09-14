@@ -13,6 +13,10 @@ debug.force_no_blanking=true
 # FUSE passthrough
 persist.sys.fuse.passthrough.enable=true
 
+# Netflix
+ro.netflix.channel=497730f0-ad4b-11e7-95a4-c7ad113ce187
+ro.netflix.signup=1
+
 # RCS
 persist.rcs.supported=1
 
