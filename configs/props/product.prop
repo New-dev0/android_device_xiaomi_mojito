@@ -21,3 +21,8 @@ persist.vendor.radio.vdp_on_ims_cap=1
 
 # Phantom process monitoring
 sys.fflag.override.settings_enable_monitor_phantom_procs=false
+
+# SkiaGL Threaded
+debug.hwui.renderer=skiagl
+debug.renderengine.backend=skiaglthreaded
+renderthread.skia.reduceopstasksplitting=true
