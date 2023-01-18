@@ -33,5 +33,8 @@ persist.sys.fflag.override.settings_provider_model=false
 # Recovery
 ro.recovery.ui.margin_height=48
 
+# System Server
+arm64.memtag.process.system_server=off
+
 # WiFi
 wifi.interface=wlan0
