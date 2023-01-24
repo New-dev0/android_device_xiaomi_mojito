@@ -215,6 +215,9 @@ persist.vendor.radio.enable_temp_dds=true
 # Soc
 ro.soc.manufacturer=Qualcomm
 
+# Thermal
+vendor.sys.thermal.data.path=/data/vendor/thermal/
+
 # USB
 vendor.usb.diag.func.name=diag
 vendor.usb.dpl.inst.name=dpl
