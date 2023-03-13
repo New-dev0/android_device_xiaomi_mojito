@@ -654,6 +654,7 @@
 
     <!--  Whether Multiuser UI should be shown -->
     <bool name="config_enableMultiUserUI">true</bool>
+
     <!--  Maximum number of supported users -->
     <integer name="config_multiuserMaximumUsers">4</integer>
 
@@ -674,6 +675,9 @@
         <item>it.owlgram.android</item>
         <item>org.telegram.messenger.web</item>
         <item>com.exteragram.messenger</item>
+        <item>com.discord</item>
+        <item>com.microsoft.teams</item>
+        <item>us.zoom.videomeetings</item>
     </string-array>
 
     <!-- Boost Framework -->
