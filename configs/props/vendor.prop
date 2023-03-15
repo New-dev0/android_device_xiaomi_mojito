@@ -213,7 +213,7 @@ persist.vendor.radio.report_codec=1
 persist.vendor.radio.enable_temp_dds=true
 
 # Soc
-ro.soc.manufacturer=Qualcomm
+ro.soc.manufacturer=QTI
 
 # Thermal
 vendor.sys.thermal.data.path=/data/vendor/thermal/
