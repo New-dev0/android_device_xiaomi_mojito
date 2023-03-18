@@ -426,6 +426,7 @@ PRODUCT_PACKAGES += \
     fstab.qcom \
     init.qcom.rc \
     init.recovery.qcom.rc \
+    init.sunny.perf.rc \
     init.target.rc \
     ueventd.qcom.rc
 
