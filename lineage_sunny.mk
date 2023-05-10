@@ -17,6 +17,12 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Boot Animation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
 
+# GApps
+BUILD_GAPPS := false
+
+# MicroG
+BUILD_MICROG := false
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_sunny
 PRODUCT_DEVICE := sunny
