@@ -214,6 +214,7 @@ persist.vendor.radio.enable_temp_dds=true
 
 # Soc
 ro.soc.manufacturer=QTI
+ro.soc.model=SM6150
 
 # Thermal
 vendor.sys.thermal.data.path=/data/vendor/thermal/
