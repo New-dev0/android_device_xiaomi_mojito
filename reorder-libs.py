@@ -26,7 +26,7 @@ def strcoll_extract_utils(string1: str, string2: str) -> int:
     string2 = string2.removeprefix('-')
 
     # If no directories, compare normally
-    if not "/" in string1 and not "/" in string2:
+    if "/" not in string1 and "/" not in string2:
         return strcoll(string1, string2)
 
     string1_dir = string1.rsplit("/", 1)[0] + "/"
@@ -40,13 +40,7 @@ def strcoll_extract_utils(string1: str, string2: str) -> int:
         # return string1 > string2
         return -1
 
-    if string2_dir.startswith(string1_dir):
-        # Second string dir is a subdirectory of the first one,
-        # return string2 > string1
-        return 1
-
-    # Compare normally
-    return strcoll(string1, string2)
+    return 1 if string2_dir.startswith(string1_dir) else strcoll(string1, string2)
 
 for file in FILES:
     if not file.is_file():
